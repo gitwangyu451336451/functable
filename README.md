@@ -1,12 +1,12 @@
 # functable
 
-> 功能型表格
+> 基于 iview 开发的功能型表格
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
-npm install
+npm install --save ftable-iview-lw
 
 # serve with hot reload at localhost:8080
 npm run dev
