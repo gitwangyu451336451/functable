@@ -202,7 +202,7 @@
 <script>
 // import vTable from '@/views/components/basic/vTable'
 export default {
-  name: 'newRcTable',
+  name: 'FtableIviewLw',
   props: ['tableAttr'],
   data () {
     return {
@@ -339,11 +339,11 @@ export default {
     },
     // 刷新表格
     /**
-             * @param {object} params 接受向后台发送请求的外部非组件内参数（如搜索组件，组建内排序的参数不进行传入）
-             * @param {object} isResetPage 是否重置page
-             * @param {object} wsValue 要进行websoct比较验证刷新的值
-             * @param {object} wsFunc websoct比较验证成功后执行的事件
-             */
+                 * @param {object} params 接受向后台发送请求的外部非组件内参数（如搜索组件，组建内排序的参数不进行传入）
+                 * @param {object} isResetPage 是否重置page
+                 * @param {object} wsValue 要进行websoct比较验证刷新的值
+                 * @param {object} wsFunc websoct比较验证成功后执行的事件
+                 */
     refreshTable (params, isResetPage, wsValue, wsFunc) {
       if (wsValue !== undefined && wsValue !== null) {
         if (this.websoctList.indexOf(wsValue) === -1) {
@@ -660,8 +660,8 @@ export default {
       }
     },
     /**
-     * 以下是监听表格变化触发事件
-     */
+         * 以下是监听表格变化触发事件
+         */
     // 页码改变
     onPageNumChange (current) {
       this.pageData.current = current

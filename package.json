@@ -1,9 +1,10 @@
 {
-  "name": "functable_iview",
-  "version": "1.0.0",
-  "description": "功能型表格",
+  "name": "ftable-iview-lw",
+  "version": "1.0.5",
+  "description": "基于iview开发的功能型表格",
   "author": "wangyu_star <wangyu@cloud-star.com.cn>",
   "private": false,
+  "main": "dist/ftable-iview-lw.min.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
@@ -12,7 +13,7 @@
   },
   "keywords": [
     "Vue2",
-    "functable_iview"
+    "iview^3.0.1"
   ],
   "dependencies": {
     "axios": "^0.18.0",
