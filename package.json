@@ -1,10 +1,16 @@
 {
-  "name": "ftable-iview-lw",
-  "version": "1.0.5",
+  "name": "functableiview-lw",
+  "version": "1.0.2",
   "description": "基于iview开发的功能型表格",
   "author": "wangyu_star <wangyu@cloud-star.com.cn>",
   "private": false,
   "main": "dist/ftable-iview-lw.min.js",
+  "typings": "types/index.d.ts",
+  "files": [
+    "src",
+    "dist/*.js",
+    "types/*.d.ts"
+  ],
   "scripts": {
     "build": "node build/build.js"
   },
@@ -58,6 +64,7 @@
     "rimraf": "^2.6.0",
     "semver": "^5.3.0",
     "shelljs": "^0.7.6",
+    "typescript": "^3.1.3",
     "uglifyjs-webpack-plugin": "^1.1.1",
     "url-loader": "^0.5.8",
     "vue-loader": "^13.3.0",

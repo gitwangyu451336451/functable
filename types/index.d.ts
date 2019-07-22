@@ -1,7 +1,7 @@
-import ftablecomp from './functable'
+import { ftablecomp } from '../src/index'
 
-let FtableIviewLw = {}
-FtableIviewLw = function(Vue, options) {
+let FtableIviewLw: any = {}
+FtableIviewLw = function (Vue, options) {
   if (typeof window !== 'undefined' && window.Vue) {
     Vue = window.Vue
   }
